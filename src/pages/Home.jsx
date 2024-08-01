@@ -1,13 +1,17 @@
-import TypoButtons from "../components/TypoButtons";
-import TextFieldComp from "../components/TextFieldComp";
+import AppBarComp from "../components/AppBarComp"
+import CardComp from "../components/CardComp"
+import TextFieldComp from "../components/TextFieldComp"
+import TypoButtons from "../components/TypoButtons"
 
 const Home = () => {
   return (
     <>
+      <AppBarComp />
       {/* <TypoButtons /> */}
-      <TextFieldComp />
+      {/* <TextFieldComp /> */}
+      <CardComp />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
